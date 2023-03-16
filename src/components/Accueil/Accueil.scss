@@ -1,0 +1,137 @@
+.accueil {
+  margin-left: 20%;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  &-spec {
+    font-family: "Electro", sans-serif;
+    font-size: calc(1rem + 1vw);
+    margin-top: 1rem;
+  }
+  &-name {
+    margin-bottom: 1rem;
+  }
+  &-job {
+    padding-bottom: 0.7rem;
+  }
+}
+@media only screen and (max-width: 926px) {
+  .accueil {
+    margin-left: 2rem;
+    height: 40vh;
+  }
+}
+h1 span {
+  cursor: grab;
+  opacity: 0;
+  rotate: 0;
+  font-family: "Electro", sans-serif;
+  font-size: calc(1rem + 5vw);
+  
+}
+.letter01 {
+  animation: letters 0.5s ease 0000ms forwards;
+}
+.letter02 {
+  animation: letters 0.5s ease 100ms forwards;
+}
+.letter03 {
+  animation: letters 0.5s ease 200ms forwards;
+}
+.letter04 {
+  animation: letters 0.5s ease 300ms forwards;
+}
+.letter05 {
+  animation: letters 0.5s ease 0400ms forwards;
+}
+.letter06 {
+  animation: letters 0.5s ease 500ms forwards;
+}
+.letter07 {
+  animation: letters 0.5s ease 600ms forwards;
+}
+.letter09 {
+  animation: letters 0.5s ease 700ms forwards;
+}
+.letter10 {
+  animation: letters 0.5s ease 800ms forwards;
+}
+.letter11 {
+  animation: letters 0.5s ease 900ms forwards;
+}
+.letter12 {
+  animation: letters 0.5s ease 1000ms forwards;
+}
+.letter13 {
+  animation: letters 0.5s ease 1100ms forwards;
+}
+.letter14 {
+  animation: letters 0.5s ease 1200ms forwards;
+}
+.letter15 {
+  animation: letters 0.5s ease 1300ms forwards;
+}
+.letter16 {
+  animation: letters 0.5s ease 1400ms forwards;
+}
+.letter17 {
+  animation: letters 0.5s ease 1500ms forwards;
+}
+.letter18 {
+  animation: letters 0.5s ease 1600ms forwards;
+}
+.letter19 {
+  animation: letters 0.5s ease 1800ms forwards;
+}
+.letter20 {
+  animation: letters 0.5s ease 1900ms forwards;
+}
+.letter21 {
+  animation: letters 0.5s ease 2000ms forwards;
+}
+.letter22 {
+  animation: letters 0.5s ease 2100ms forwards;
+}
+.letter23 {
+  animation: letters 0.5s ease 2200ms forwards;
+}
+.letter24 {
+  animation: letters 0.5s ease 2300ms forwards;
+}
+.letter25 {
+  animation: letters 0.5s ease 2400ms forwards;
+}
+.letter26 {
+  animation: letters 0.5s ease 2500ms forwards;
+}
+.letter27 {
+  animation: letters 0.5s ease 2600ms forwards;
+}
+.letter28 {
+  animation: letters 0.5s ease 2700ms forwards;
+}
+.letter29 {
+  animation: letters 0.5s ease 2800ms forwards;
+}
+.emptySpan {
+  animation: none;
+}
+@keyframes letters {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.accueil-blockName span {
+  transition: 0.3s linear;
+  &:hover {
+    display: inline-block;
+    transform: scaleY(0.7) scaleX(1.1) scaleZ(1.1);
+  }
+}
